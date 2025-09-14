@@ -16,6 +16,16 @@ This project is a command-line Student Feedback Management System built with Pyt
 - tabulate
 - textblob
 - matplotlib
+- numpy
+- python-dateutil
+- pytz
+- tzdata
+- nltk
+- click
+- joblib
+- regex
+- tqdm
+- colorama
 
 ## Setup
 1. Create and activate a Python virtual environment:
@@ -25,7 +35,7 @@ This project is a command-line Student Feedback Management System built with Pyt
    ```
 2. Install dependencies:
    ```pwsh
-   pip install pandas tabulate textblob matplotlib
+   pip install pandas tabulate textblob matplotlib numpy python-dateutil pytz tzdata nltk click joblib regex tqdm colorama
    python -m textblob.download_corpora
    ```
 
